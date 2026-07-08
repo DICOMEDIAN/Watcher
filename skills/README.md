@@ -1,0 +1,50 @@
+# Hermes Operations Skillset
+
+This folder defines reusable skills for operating the Hermes multi-agent team.
+
+These are not project-specific source-code skills. They are operating skills:
+
+- how Hermes reads Notion
+- how messages become agent work
+- how daily summaries are created
+- how important facts are promoted to long-term memory
+- how files/images move safely
+- how encoding failures are prevented
+- how new local or remote agents are attached
+
+## Skill Tiers
+
+```text
+Tier 1: Always-on operating rules
+  encoding-guardian
+  notion-message-discipline
+
+Tier 2: Scheduled Hermes jobs
+  daily-summary
+  memory-promotion
+  archive-housekeeping
+
+Tier 3: Agent/team expansion
+  agent-onboarding
+  remote-agent-attach
+  notion-media-transfer
+```
+
+## Recommended Rollout Order
+
+1. `encoding-guardian`
+2. `notion-message-discipline`
+3. `daily-summary`
+4. `memory-promotion`
+5. `notion-media-transfer`
+6. `agent-onboarding`
+7. `remote-agent-attach`
+
+## Storage Policy
+
+Keep canonical skill descriptions here in Git. Install or mirror only the
+active runtime skills into Hermes local skill storage.
+
+This keeps the operating memory portable across PCs while allowing each machine
+to run only the skills it needs.
+
