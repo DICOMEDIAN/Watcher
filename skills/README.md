@@ -47,6 +47,7 @@ Tier 4: Multi-agent work cycles
 8. `ideation-cycle`
 9. `plan-development-cycle`
 10. `development-validation-cycle`
+11. `project-skillset-factory`
 
 ## Storage Policy
 
@@ -68,3 +69,16 @@ Run development-validation cycle 3 times for this issue.
 Hermes should then create structured rounds, wake the relevant agents, collect
 their outputs, and synthesize the result through Smartie or the assigned
 orchestrator.
+
+## Project Skill Factory
+
+`project-skillset-factory` is the reusable way to turn project documentation
+into agent-callable skill names. Use it before creating one-off project skills.
+
+It creates:
+
+- a skill list
+- aliases
+- source map
+- tag taxonomy
+- harness templates

@@ -65,6 +65,22 @@ Hermes-local wrappers:
 - `C:\Users\user\AppData\Local\hermes\scripts\safert_dev_bridge.py`
 - `C:\Users\user\AppData\Local\hermes\scripts\safert_stein_bridge.py`
 
+## Skill Catalog
+
+SafeRT project skills live in:
+
+- `projects/safert/skills/SKILL-LIST.md`
+- `projects/safert/skills/SKILL-ALIASES.md`
+- `projects/safert/skills/SKILL-METADATA.yaml`
+- `projects/safert/skills/HARNESS-RECIPES.md`
+- `projects/safert/skills/KNOWLEDGE-INVENTORY.md`
+
+Hermes runtime aggregate skill:
+
+```text
+safert-domain / safert-skill-list
+```
+
 ## Message Formatting
 
 USER-facing:
@@ -85,4 +101,3 @@ Agent-to-agent:
 - TEST closes Done.
 - STEIN does not edit code unless USER explicitly overrides.
 - SMARTIE coordinates and plans.
-

@@ -1,0 +1,164 @@
+project: safert
+generated: 2026-07-08
+skills:
+  - id: safert-agent-rules
+    category: agent-ops
+    tags: [claude, codex, agent-rules, workflow, issue-sync, branch-policy]
+    primary_agents: [DEV, SMARTIE, TEST]
+    secondary_agents: [SENSI, STEIN]
+    harness_types: [review-harness, notion-workflow-harness]
+    risk_level: P1
+    hot_memory_candidate: true
+  - id: safert-prd
+    category: product
+    tags: [prd, product-fit, requirements, roadmap, fmea-product]
+    primary_agents: [SMARTIE, MAX]
+    secondary_agents: [DEV, SENSI]
+    harness_types: [review-harness, evidence-harness]
+    risk_level: P2
+    hot_memory_candidate: false
+  - id: safert-architecture-fsd
+    category: architecture
+    tags: [fsd, react, typescript, zustand, tanstack-query, module-boundaries]
+    primary_agents: [DEV, SENSI]
+    secondary_agents: [SMARTIE]
+    harness_types: [review-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-fmea-risk-domain
+    category: domain
+    tags: [fmea, rpn, risk-matrix, ap, task-priority, existing-measures, planned-measures]
+    primary_agents: [STEIN, SMARTIE]
+    secondary_agents: [DEV, TEST]
+    harness_types: [review-harness, regulatory-harness]
+    risk_level: P0
+    hot_memory_candidate: false
+  - id: safert-sae-sync-contract
+    category: data-contract
+    tags: [sae, sod, severity, occurrence, detection, cross-method-sync, reset-warning]
+    primary_agents: [DEV, TEST, STEIN]
+    secondary_agents: [SENSI]
+    harness_types: [test-harness, data-fidelity-harness]
+    risk_level: P0
+    hot_memory_candidate: true
+  - id: safert-process-map-sot
+    category: data-contract
+    tags: [process-map, flatitem, source-of-truth, hierarchy, import-sync, orphan-detection]
+    primary_agents: [DEV, TEST]
+    secondary_agents: [STEIN]
+    harness_types: [test-harness, data-fidelity-harness]
+    risk_level: P0
+    hot_memory_candidate: false
+  - id: safert-excel-fidelity
+    category: import-export
+    tags: [excel, xlsx, wysiwyg, anhang, deep-copy, revidieren, roundtrip]
+    primary_agents: [DEV, TEST]
+    secondary_agents: [SENSI]
+    harness_types: [test-harness, data-fidelity-harness]
+    risk_level: P0
+    hot_memory_candidate: false
+  - id: safert-dgmp-ui-guideline
+    category: ui-ux
+    tags: [dgmp, german-document, medical-ui, design-tokens, semantic-color, brand-lock]
+    primary_agents: [SENSI, KKUMI]
+    secondary_agents: [DEV, TEST, STEIN]
+    harness_types: [ui-harness, review-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-risk-prozesskarte
+    category: ui-ux
+    tags: [prozesskarte, reactflow, read-only, hazard-hexagon, massnahme, orthogonal-connectors]
+    primary_agents: [DEV, TEST, SENSI]
+    secondary_agents: [STEIN]
+    harness_types: [ui-harness, test-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-hospital-tenancy
+    category: product
+    tags: [hospital, department, treatment-room, protocol, membership, roles]
+    primary_agents: [SMARTIE, SENSI]
+    secondary_agents: [DEV, TEST]
+    harness_types: [review-harness, ui-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-german-report-compliance
+    category: regulatory
+    tags: [german-report, residual-risk, signature, revision-history, strlschv, iso14971, dgmp]
+    primary_agents: [STEIN, SMARTIE]
+    secondary_agents: [DEV, TEST]
+    harness_types: [regulatory-harness, evidence-harness]
+    risk_level: P0
+    hot_memory_candidate: false
+  - id: safert-ai-jury-consensus
+    category: ai-rag
+    tags: [ai-jury, consensus, scoring, disagreement, human-in-the-loop]
+    primary_agents: [SMARTIE, MAX]
+    secondary_agents: [SENSI, STEIN]
+    harness_types: [review-harness, evidence-harness]
+    risk_level: P2
+    hot_memory_candidate: false
+  - id: safert-agent-rag-citation
+    category: ai-rag
+    tags: [rag, citation, retrieval, grounding, agent-4-1, hallucination-control]
+    primary_agents: [SMARTIE, DEV]
+    secondary_agents: [STEIN, SENSI]
+    harness_types: [review-harness, regulatory-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-agentic-notion-workflow
+    category: notion-workflow
+    tags: [notion, comm-hub, queue, watcher, archive, multi-pc, rate-limit]
+    primary_agents: [SMARTIE, DEV, TEST]
+    secondary_agents: [SENSI]
+    harness_types: [notion-workflow-harness]
+    risk_level: P1
+    hot_memory_candidate: true
+  - id: safert-dev-test-handoff
+    category: testing
+    tags: [handoff, sha, preview-url, dod, author-approver-separation]
+    primary_agents: [DEV, TEST]
+    secondary_agents: [SMARTIE]
+    harness_types: [test-harness, notion-workflow-harness]
+    risk_level: P1
+    hot_memory_candidate: true
+  - id: safert-ui-branch-gate
+    category: ui-ux
+    tags: [ui-branch, worktree, preview-port, sensi-review, manual-regression]
+    primary_agents: [SENSI, DEV, TEST]
+    secondary_agents: [SMARTIE]
+    harness_types: [ui-harness]
+    risk_level: P1
+    hot_memory_candidate: false
+  - id: safert-mockup-harness
+    category: mockup
+    tags: [mockup, screenshot, variant, handoff, design-exploration]
+    primary_agents: [SENSI, KKUMI]
+    secondary_agents: [SMARTIE, MAX]
+    harness_types: [mockup-harness, ui-harness]
+    risk_level: P2
+    hot_memory_candidate: false
+  - id: safert-beta-pilot-evidence
+    category: user-evidence
+    tags: [beta-pilot, survey, user-feedback, onboarding, acceptance]
+    primary_agents: [SMARTIE, MAX]
+    secondary_agents: [SENSI]
+    harness_types: [evidence-harness]
+    risk_level: P2
+    hot_memory_candidate: false
+  - id: safert-security-deploy
+    category: deployment
+    tags: [install, deployment, server, security, env]
+    primary_agents: [DEV, TEST]
+    secondary_agents: [STEIN]
+    harness_types: [deployment-harness, review-harness]
+    risk_level: P0
+    hot_memory_candidate: false
+  - id: safert-issue-board-sync
+    category: notion-workflow
+    tags: [issue-board, closes-id, ready-for-test, done, pre-push-hook]
+    primary_agents: [DEV, TEST, SMARTIE]
+    secondary_agents: []
+    harness_types: [notion-workflow-harness]
+    risk_level: P1
+    hot_memory_candidate: true
+
