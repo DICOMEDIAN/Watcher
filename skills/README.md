@@ -28,6 +28,11 @@ Tier 3: Agent/team expansion
   agent-onboarding
   remote-agent-attach
   notion-media-transfer
+
+Tier 4: Multi-agent work cycles
+  plan-development-cycle
+  ideation-cycle
+  development-validation-cycle
 ```
 
 ## Recommended Rollout Order
@@ -39,6 +44,9 @@ Tier 3: Agent/team expansion
 5. `notion-media-transfer`
 6. `agent-onboarding`
 7. `remote-agent-attach`
+8. `ideation-cycle`
+9. `plan-development-cycle`
+10. `development-validation-cycle`
 
 ## Storage Policy
 
@@ -48,3 +56,15 @@ active runtime skills into Hermes local skill storage.
 This keeps the operating memory portable across PCs while allowing each machine
 to run only the skills it needs.
 
+## Cycle Skills
+
+Cycle skills are reusable multi-agent workflows. A user should be able to say:
+
+```text
+Run ideation cycle 4 times.
+Run development-validation cycle 3 times for this issue.
+```
+
+Hermes should then create structured rounds, wake the relevant agents, collect
+their outputs, and synthesize the result through Smartie or the assigned
+orchestrator.
