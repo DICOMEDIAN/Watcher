@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+auth.json
+token*
+secrets/
+
+# Hermes runtime state
+state.db*
+kanban.db*
+*.lock
+gateway.pid
+gateway_state.json
+cron/output/
+cache/
+
+# Local agent runtime/session dumps
+.claude/
+.codex/
+sessions/
+logs/
+*.jsonl
+
+# OS/editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+

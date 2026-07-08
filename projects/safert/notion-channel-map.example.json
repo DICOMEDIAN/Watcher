@@ -1,0 +1,21 @@
+{
+  "project": "safert",
+  "channels": {
+    "agent": "38c1a1ad-bebd-816c-8de1-d26514161b55",
+    "CH": "3721a1ad-bebd-8112-a72c-e0e019d8cd5a",
+    "v2": "3741a1ad-bebd-813e-a0fc-d370479a86e5"
+  },
+  "archives": {
+    "agent": "38d1a1ad-bebd-8151-af52-c7327b6d6eca",
+    "CH": "3721a1ad-bebd-81ab-9b41-c3e3be0d11b6",
+    "v2": "3791a1ad-bebd-8135-ad43-ed07ebf60baa"
+  },
+  "messageLogHeadingId": {
+    "agent": "38c1a1ad-bebd-81fa-976b-d1f74f7bd488"
+  },
+  "notes": [
+    "This file intentionally contains page IDs only, not API tokens.",
+    "For a private repo, page IDs are acceptable operational metadata. For a public repo, consider using placeholders."
+  ]
+}
+

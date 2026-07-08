@@ -1,0 +1,17 @@
+{
+  "project": "<project-name>",
+  "channels": {
+    "agent": "<notion-page-id>",
+    "CH": "<optional-notion-page-id>",
+    "v2": "<optional-notion-page-id>"
+  },
+  "archives": {
+    "agent": "<archive-page-id>",
+    "CH": "<optional-archive-page-id>",
+    "v2": "<optional-archive-page-id>"
+  },
+  "messageLogHeadingId": {
+    "agent": "<optional-heading-block-id>"
+  }
+}
+
