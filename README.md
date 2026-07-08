@@ -70,6 +70,9 @@ templates/           project/agent templates
 
 - [Install And Setup From Zero](runbooks/install-and-setup.md)
 - [Install Codex And Claude](runbooks/install-codex-and-claude.md)
+- [Attach Remote Agent PC](runbooks/attach-remote-agent-pc.md)
+- [Remote Agent Session Kickoff](runbooks/remote-agent-session-kickoff.md)
+- [Remote PC Quick Checklist](runbooks/remote-pc-quick-checklist.md)
 - [Notion Messaging Rules](notion/messaging-rules.md)
 - [Encoding Survival Guide](memory/encoding-survival-guide.md)
 - [Message Format And Media Handling](notion/message-format-and-media.md)

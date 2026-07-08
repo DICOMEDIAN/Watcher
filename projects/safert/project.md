@@ -81,6 +81,14 @@ Hermes runtime aggregate skill:
 safert-domain / safert-skill-list
 ```
 
+## Remote PC Onboarding
+
+Remote SafeRT agents should follow:
+
+- `runbooks/attach-remote-agent-pc.md`
+- `runbooks/remote-agent-session-kickoff.md`
+- `runbooks/remote-pc-quick-checklist.md`
+
 ## Message Formatting
 
 USER-facing:
